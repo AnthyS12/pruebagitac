@@ -41,15 +41,15 @@ jobs:
       env:
         NEW_VERSION: ${{ steps.version.outputs.version }}  
       run: |
-        docker build -t anthyml/docker-graphql_rest:$NEW_VERSION ./backend
-        docker build -t anthyml/docker-graphql_rest:latest ./backend
+        docker build -t anthnyml/docker-graphql_rest:$NEW_VERSION ./backend
+        docker build -t anthnyml/docker-graphql_rest:latest ./backend
         
     - name: Push Docker Image
       env:
         NEW_VERSION: ${{ steps.version.outputs.version }}
       run: |
-        docker push anthyml/docker-graphql_rest:$NEW_VERSION
-        docker push anthyml/docker-graphql_rest:latest
+        docker push anthnyml/docker-graphql_rest:$NEW_VERSION
+        docker push anthnyml/docker-graphql_rest:latest
       
       
       
