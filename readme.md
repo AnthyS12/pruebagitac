@@ -28,7 +28,7 @@ En Postman dirigirse a
 
 Capturas:
 REST API
-![REST](./Capturas/1.png)
+![REST](./capturas/1.png)
 ![GET](./Capturas/2.png)
 ![docker build](./Capturas/3.png)
 ![docker image](./Capturas/4.png)
