@@ -22,7 +22,7 @@ Nota: Es importante hacerlo en terminal "CMD" o VSC "Command Prompt"
  - npm run start 
 
 En Postman dirigirse a 
- - http://localhost:3000/equipo
+ - http://localhost:3000/equipo 
 
 -------------------------------------------------------------------------------------------
 
